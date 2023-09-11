@@ -1,0 +1,139 @@
+#home{
+    width: 100%;
+    padding-top: 10rem;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+}
+body{
+    /* overflow: hidden; */
+    /* height: 100vh; */
+    overflow: hidden;
+
+}
+
+.bg-transparent {
+    --bs-bg-opacity: 1;
+    background-color: transparent!important;
+    padding: 20px;
+}
+nav .logo{
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav-link{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin-right:17px;
+    transition: all ease .40s;
+    border-radius: 10px;
+    /* padding: 1px 20px; */
+
+
+}
+
+.nav-link:hover{
+    color: orange;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: orange;
+    background-color: #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#home h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: 1px;
+  
+}
+#home p{
+    font-size:1.1rem;
+}
+#home h1 span{
+    /* -webkit-text-stroke: 2px rgb(0, 0, 2); */
+    color: transparent;
+    text-shadow: 0 0 2px rgba(235, 100, 46, 0.685);
+
+}
+.btn1{
+    background-color: #f1a644;
+    padding: 5px 2%;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 20px;
+    border: 0;
+    margin-right: 20px;
+}
+.btn-register{
+    background-color: transparent;
+    border: 2px solid #f1a644;
+    padding: 5px 2%;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    
+    border-radius: 20px;
+
+}
+.btn1 i{
+    font-size: 18px
+}
+.circle{
+    position: absolute;
+   bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #f1a644;
+    clip-path: circle(800px at right 800px);
+}
+.ciki{
+    position: absolute;
+    width: 500px;
+    top:100px;
+    filter: drop-shadow(5px 5px 20px rgba(0,0,0,0.7));
+    right: 10%;
+}
+
+.nav .nav-link{
+    margin-top: 30px;
+}
+#product{
+    padding-top: 5rem;
+    /* background-color: aliceblue; */
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+.rating i{
+    color: gold;
+}
+.card-product{
+    width: 250px;
+    height: 400px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.card-product img{
+
+    width: 200px;
+    /* background-color: yellow; */
+    margin: auto;
+}
+.card-img{
+    display: flex;
+    /* background-color: red; */
+    height: 100%;
+}
